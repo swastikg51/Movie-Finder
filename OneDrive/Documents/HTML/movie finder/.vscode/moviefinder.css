@@ -1,0 +1,79 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-attachment: blue;
+}
+.title{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    background-color: green;
+    width: 100;
+    padding: 20px;
+    text-align: center;
+}
+.full body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form-input{
+    border: none;
+    background-color: white;
+    padding: 10px 20px;
+    border: 1px solid grey;
+    margin: 20px;
+
+}
+.form-input:focus{
+    background-color: white;
+}
+.search{
+    border: none;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+    padding: 10px 20px;
+    color: white;
+
+}
+.search-box{
+    display: flex;
+    align-items: centre;
+    justify-content: centre;
+    margin: 100px;
+}
+.movie-cards{
+    display: flex;
+    justify-content: centre;
+    align-items: center;
+    flex-direction: column;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: centre;
+    color: white;
+    background-color: white;
+    margin: 20px;
+    padding: 30px;
+    width: 700px;
+
+}
+.movie-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin: 0px 200px;
+}
+.value{
+    font-size: 15px;
+    width: 200px;
+}
+
+
